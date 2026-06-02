@@ -419,7 +419,7 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 0px 0px; ;
+  padding: 0px 0px;
 }
 
 .boxed.underline-blackdashed {
@@ -427,7 +427,7 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 0px 0px; ;
+  padding: 0px 0px;
 }
 
 .boxed.underline-blackdashed2 {
@@ -435,7 +435,7 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 0px 0px; ;
+  padding: 0px 0px;
 }
 
 .boxed.underline-blackdotted {
@@ -443,7 +443,7 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 0px 0px; ;
+  padding: 0px 0px;
 }
 
 .boxed.underline-blackdotted-far {
@@ -451,7 +451,7 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 3px 0mm; ;
+  padding: 3px 0mm;
 }
 
 .boxed.underline-blackdotted2 {
@@ -459,7 +459,7 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 0px 0px; ;
+  padding: 0px 0px;
 }
 
 .boxed.underline-three {
@@ -467,7 +467,7 @@
   border-left: 0;
   border-right: 1px dashed rgb(100, 100, 100);
   border-top: 1px dashed rgb(100, 100, 100);
-  padding: 0px 0px; ;
+  padding: 0px 0px;
 }
 
 .boxed.underline-notsure {

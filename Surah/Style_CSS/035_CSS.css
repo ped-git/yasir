@@ -168,6 +168,14 @@ speech[black]::before {
   padding: 1px 0.53mm; ;
 }
 
+.boxed.underline-three {
+  border-bottom: 1px solid rgb(100, 100, 100);
+  border-left: 0;
+  border-right: 1px solid rgb(100, 100, 100);
+  border-top: 1px solid rgb(100, 100, 100);
+  padding: 0px 0px;
+}
+
 .boxed.underline-black-2 {
   border-bottom: 1px solid rgb(180, 180, 180);
   border-left: 0;
@@ -261,7 +269,15 @@ speech[black]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 0px 0px; ;
+  padding: 0px 0px;
+}
+
+.boxed.underline-blackdotted {
+  border-bottom: 1px dotted rgb(100, 100, 100);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px;
 }
 
 .boxed.underline-green {
