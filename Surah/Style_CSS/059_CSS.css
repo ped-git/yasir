@@ -492,6 +492,10 @@ speech[black]::before {
   color:  rgb(160, 160, 160);
 }
 
+.highlight12 {
+  color:  rgb(0, 130, 230);
+}
+
 @media print {
   .header {
     position: fixed;
