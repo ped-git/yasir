@@ -1,3 +1,5 @@
+
+
 .vertical-line-1 {
   border-left: 0.3mm solid black;
   height: 100%;
@@ -489,6 +491,10 @@
   margin-left: 0mm;
   text-align: justify;
   text-indent: -4mm;
+}
+
+.highlight11 {
+  color:  rgb(160, 160, 160);
 }
 
 .highlight16 {
