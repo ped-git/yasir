@@ -1,3 +1,44 @@
+speech {
+  font-size: 10mm;
+  display: inline;
+  color: inherit;
+  text-decoration: none;
+}
+
+speech[open]::before {
+  content: "«";
+  display: inline;
+  vertical-align: -1.5mm;
+}
+
+speech[close]::before {
+  content: "»";
+  display: inline;
+  vertical-align: -1.5mm;
+}
+
+speech[underline]::before {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0mm;
+}
+
+speech[green]::before {
+  color: rgb(70,175,70);
+}
+
+speech[red]::before {
+  color: rgb(205,100,100);
+}
+
+speech[blue]::before {
+  color: rgb(70, 70, 220);
+}
+
+speech[gray]::before {
+  color: rgb(150, 150, 150);
+}
+
 .vertical-line-1 {
   border-left: 0.3mm solid black;
   height: 100%;
@@ -161,6 +202,15 @@
   margin-top: 0mm;
   margin-right: 19.5mm;
   margin-bottom: 0mm;
+  margin-left: 10mm;
+  text-align: justify;
+  text-indent: -9.5mm;
+}
+
+.big-bullet-far {
+  margin-top: 0mm;
+  margin-right: 19.5mm;
+  margin-bottom: 4.5mm;
   margin-left: 10mm;
   text-align: justify;
   text-indent: -9.5mm;
@@ -502,6 +552,14 @@
 
 .zero-margin2.far {
   margin-bottom: 4.5mm;
+}
+
+.highlight5 {
+  color:  rgb(175, 120, 35);
+}
+
+.highlight12 {
+  color:  rgb(0, 130, 230);
 }
 
 @media print {
