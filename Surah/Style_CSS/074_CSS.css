@@ -1,3 +1,44 @@
+speech {
+  font-size: 10mm;
+  display: inline;
+  color: inherit;
+  text-decoration: none;
+}
+
+speech[open]::before {
+  content: "«";
+  position: relative;
+  top: 1.5mm;
+}
+
+speech[close]::before {
+  content: "»";
+  position: relative;
+  top: 1.5mm;
+}
+
+speech[underline]::before {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0mm;
+}
+
+speech[green]::before {
+  color: rgb(70,175,70);
+}
+
+speech[red]::before {
+  color: rgb(205,100,100);
+}
+
+speech[blue]::before {
+  color: rgb(70, 70, 220);
+}
+
+speech[gray]::before {
+  color: rgb(150, 150, 150);
+}
+
 .vertical-line-1 {
   border-left: 0.3mm solid black;
   height: 100%;
@@ -21,10 +62,10 @@
 
 .thin-vertical-line-1 {
   border-left: 0.5mm solid rgb(230, 230, 230);
-  top: 78mm;
+  top: 68mm;
   bottom: 25mm;
   position: absolute;
-  left: 15mm; ;
+  left: 10mm; ;
 }
 
 .line-marker{
@@ -33,17 +74,17 @@
 }
 
 .line-marker.top-1 {
-  width: 6mm;
+  width: 2mm;
   background-color: rgb(230, 230, 230);
-  top: 78.0mm;
-  left: 15.0mm; ;
+  top: 68.0mm;
+  left: 10.0mm; ;
 }
 
 .line-marker.bottom-1 {
-  width: 23mm;
+  width: 28mm;
   background-color: rgb(230, 230, 230);
   bottom: 25.0mm;
-  left: 15.0mm; ;
+  left: 10.0mm; ;
 }
 
 .diamond-marker.top-1 {
@@ -88,7 +129,7 @@
   page-break-inside: auto;
   vertical-align: top;
   text-align: justify;
-  margin-top: 0mm;
+  margin-top: -1mm;
   width: 100mm;
   text-indent: 0mm;
 }
