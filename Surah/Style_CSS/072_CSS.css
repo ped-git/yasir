@@ -70,7 +70,7 @@ speech[gray]::before {
   page-break-inside: auto;
   vertical-align: top;
   text-align: justify;
-  margin-top: 2mm;
+  margin-top: 1mm;
   width: 144mm;
   text-indent: 0mm;
   margin-left: 0;
@@ -81,8 +81,8 @@ speech[gray]::before {
   page-break-inside: auto;
   vertical-align: top;
   text-align: justify;
-  margin-top: -1mm;
-  width: 111mm;
+  margin-top: 0mm;
+  width: 92mm;
   margin-left: 0;
 }
 
