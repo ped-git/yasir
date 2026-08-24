@@ -35,6 +35,10 @@ speech[blue]::before {
   color: rgb(70, 70, 220);
 }
 
+speech[gray]::before {
+  color: rgb(150, 150, 150);
+}
+
 .vertical-line-1 {
   border-left: 0.3mm solid black;
   height: 100%;
@@ -327,7 +331,7 @@ speech[blue]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 3px 0mm; ;
+  padding: 3px 0mm;
 }
 
 .boxed.underline-blackdotted2 {
