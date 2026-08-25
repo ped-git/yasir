@@ -1,3 +1,44 @@
+speech {
+  font-size: 10mm;
+  display: inline;
+  color: inherit;
+  text-decoration: none;
+}
+
+speech[open]::before {
+  content: "«";
+  position: relative;
+  top: 1.5mm;
+}
+
+speech[close]::before {
+  content: "»";
+  position: relative;
+  top: 1.5mm;
+}
+
+speech[underline]::before {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0mm;
+}
+
+speech[green]::before {
+  color: rgb(70,175,70);
+}
+
+speech[red]::before {
+  color: rgb(205,100,100);
+}
+
+speech[blue]::before {
+  color: rgb(70, 70, 220);
+}
+
+speech[gray]::before {
+  color: rgb(150, 150, 150);
+}
+
 .vertical-line-1 {
   border-left: 0.3mm solid black;
   height: 100%;
@@ -148,7 +189,7 @@
 
 .thin-vertical-line-4 {
   border-left: 0.5mm solid rgb(150,150, 150);
-  top: 16.0mm;
+  top: 11.0mm;
   bottom: 20.0mm;
   position: absolute;
   left: 2.5mm; ;
@@ -210,9 +251,9 @@
 }
 
 .line-marker.top-4 {
-  width: 42mm;
+  width: 33mm;
   background-color: rgb(150, 150, 150);
-  top: 16.0mm;
+  top: 11.0mm;
   left: 2.5mm; ;
 }
 
