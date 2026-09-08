@@ -39,6 +39,10 @@ speech[gray]::before {
   color: rgb(150, 150, 150);
 }
 
+speech[mixed]::before {
+  color: rgb(140, 140, 85);
+}
+
 .vertical-line-1 {
   border-left: 0.3mm solid black;
   height: 100%;
@@ -261,8 +265,8 @@ speech[gray]::before {
   page-break-inside: auto;
   vertical-align: top;
   text-align: justify;
-  margin-top: 0.5mm;
-  width: 132mm;
+  margin-top: 2.0mm;
+  width: 129mm;
 }
 
 .inner-paragraph-14 {
