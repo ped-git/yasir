@@ -407,6 +407,16 @@ speech[mixed]::before {
   border-top: 0;
 }
 
+.boxed.underline-gradient-far {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to left, black, white);
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 3px 0mm;
+}
+
 .boxed.underline-gradientrev {
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, black, white);
@@ -442,7 +452,7 @@ speech[mixed]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  padding: 3px 0mm; ;
+  padding: 3px 0mm;
 }
 
 .boxed.underline-blue {
