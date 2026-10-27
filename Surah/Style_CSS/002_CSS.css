@@ -417,6 +417,7 @@ speech[mixed]::before {
   padding: 3px 0mm;
 }
 
+
 .boxed.underline-gradientrev {
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, black, white);
@@ -424,6 +425,25 @@ speech[mixed]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
+}
+
+.boxed.underline-gradientgreenrev {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, rgb(190, 210, 190), white);
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.boxed.underline-gradientredrev {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, rgb(235, 200, 200), white);
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px;
 }
 
 .boxed.underline-gradientsym {
@@ -445,6 +465,7 @@ speech[mixed]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
+  padding: 0px 0mm;
 }
 
 .boxed.underline-solidgreen-far {
@@ -460,6 +481,7 @@ speech[mixed]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
+  padding: 0px 0mm;
 }
 
 .boxed.underline-red {
@@ -467,6 +489,7 @@ speech[mixed]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
+  padding: 0px 0mm;
 }
 
 .boxed.underline-solidred {
@@ -474,6 +497,7 @@ speech[mixed]::before {
   border-left: 0;
   border-right: 0;
   border-top: 0;
+  padding: 0px 0mm;
 }
 
 .boxed.underline-solidred-far {
@@ -494,7 +518,7 @@ speech[mixed]::before {
 }
 
 .boxed.underline-black-far {
-  border-bottom: 1px solid rgb(100, 100, 100);
+  border-bottom: 1px solid rgb(150, 150, 150);
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -523,6 +547,14 @@ speech[mixed]::before {
   border-right: 0;
   border-top: 0;
   padding: 0px 0px;
+}
+
+.boxed.underline-blackdashed-far {
+  border-bottom: 1px dashed rgb(150, 150, 150);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 3px 0px;
 }
 
 .boxed.underline-blackdashed2 {
@@ -713,4 +745,144 @@ body {
   font-size: 4.5mm;
   line-height: 240%;
   font-family: 'KFGQPC Uthman Taha Naskh';
+}
+
+.boxed.underline-black-wavy-far {
+  text-decoration: 0.3mm underline rgb(180, 180, 180);
+  text-decoration-style: wavy;
+  text-underline-offset: 3.0mm;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px;
+}
+
+.boxed.underline-blackdashed-thick {
+  border-bottom: 0.7mm dashed rgb(180, 180, 180);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0.7mm 0mm; ;
+}
+
+.boxed.underline-gradientsym1 {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, rgb(100, 100, 100) 0%,
+  rgb(230, 230, 230) 15%,
+  rgb(230, 230, 230) 85%,
+  rgb(100, 100, 100) 100%);
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px; ;
+}
+
+.boxed.underline-black-far2 {
+  border-bottom: 1px solid rgb(200, 200, 200);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 6px 0px; ;
+}
+
+.boxed.underline-solidred-far2 {
+  border-bottom: 1px solid rgb(250, 180, 180);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 6px 0px; ;
+}
+
+.boxed.underline-gradientred {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, white, rgb(220, 150, 150));
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px;
+}
+
+.boxed.underline-red-far {
+  border-bottom: 1px dashed rgb(235, 200, 200);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 3px 0mm; ;
+}
+
+.boxed.underline-solidgreen-far2 {
+  border-bottom: 1px solid rgb(140, 220, 140);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 6px 0px; ;
+}
+
+.boxed.underline-gradientgreen {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, rgb(230, 255, 230), rgb(100, 180, 100));
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px; ;
+}
+
+.boxed.underline-gradientsym2 {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, rgb(230, 230, 230) 0%,
+  rgb(100, 100, 100) 40%,
+  rgb(100, 100, 100) 60%,
+  rgb(230, 230, 230) 100%);
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px; ;
+}
+
+.boxed.underline-black-wavy {
+  text-decoration: 0.3mm underline rgb(180, 180, 180);
+  text-decoration-style: wavy;
+  text-underline-offset: 2.5mm;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px; ;
+}
+
+.boxed.underline-zigzag {
+  text-decoration: none;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 6px;
+
+  background-image:
+    linear-gradient(-45deg, transparent 75%, rgb(150,150,150) 75%),
+    linear-gradient(45deg, transparent 75%, rgb(150,150,150) 75%);
+
+  background-size: 8px 6px;
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+}
+
+.vertical-line-dashed-2 {
+  border-left: 0.3mm dashed rgb(150, 150, 150);
+  height: 120%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 5.4mm;
+  page-break-inside: auto; ;
 }
