@@ -295,7 +295,7 @@ speech[gray]::before {
 }
 
 .boxed.underline-gradientred {
-  border-bottom: 1px solid;
+  border-bottom: 0.5mm solid;
   border-image: linear-gradient(to left, rgb(220, 150, 150), white);
   border-image-slice: 1;
   border-left: 0;
@@ -534,4 +534,14 @@ body {
   font-size: 4.5mm;
   line-height: 240%;
   font-family: 'KFGQPC Uthman Taha Naskh';
+}
+
+.boxed.underline-gradientgreen1 {
+  border-bottom: 0.5mm solid;
+  border-image: linear-gradient(to right, rgb(70, 175, 70), white);
+  border-image-slice: 1;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  padding: 0px 0px; ;
 }
